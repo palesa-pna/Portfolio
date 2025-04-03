@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Palesa's Portfolio</title>
+
+    <!-- Embedded CSS -->
+    <style>
+        /* Global Styles */
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+
+        header {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+
+        header p {
+            font-size: 1.2rem;
+        }
+
+        section {
+            padding: 2rem;
+            margin: 20px;
+        }
+
+        h2 {
+            color: #333;
+            font-size: 2rem;
+            margin-bottom: 1rem;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        ul li {
+            margin-bottom: 1rem;
+            font-size: 1.1rem;
+        }
+
+        ul li img {
+            width: 30px;
+            vertical-align: middle;
+            margin-right: 10px;
+        }
+
+        /* Languages Section */
+        #languages ul {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        #languages li {
+            display: flex;
+            align-items: center;
+        }
+
+        /* Education Section */
+        #education ul {
+            line-height: 1.8;
+        }
+
+        #education a {
+            display: inline-block;
+            margin-top: 1rem;
+            padding: 0.5rem 1.5rem;
+            background-color: #333;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        #education a:hover {
+            background-color: #555;
+        }
+
+        /* Interests Section */
+        #interests ul {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+            gap: 20px;
+        }
+
+        #interests li {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            padding: 1rem;
+            text-align: center;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        #interests li:hover {
+            background-color: #f4f4f4;
+            cursor: pointer;
+        }
+
+        /* Contact Form */
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+        }
+
+        form input, form textarea {
+            padding: 1rem;
+            font-size: 1rem;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        form button {
+            padding: 1rem;
+            font-size: 1.1rem;
+            background-color: #333;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        form button:hover {
+            background-color: #555;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        /* Media Queries */
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+            }
+
+            section {
+                margin: 10px;
+                padding: 1.5rem;
+            }
+
+            #languages ul {
+                flex-direction: column;
+            }
+
+            #languages li {
+                margin-bottom: 15px;
+            }
+
+            #interests ul {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Palesa  Molefe</h1>
+        <p>Welcome to my personal portfolio!</p>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hi, I'm Palesa Molefe, a passionate web developer with a love for problem-solving and continuous learning. I thrive on building user-friendly and responsive websites. I am an ambitious and motivated IT professional with a passion for software development. The opportunity at PLP Academy is helping me unleash my full potential, allowing me to grow and refine my skills in this exciting field. I am a hardworking, goal-oriented individual who thrives in challenging environments, constantly looking to enhance my knowledge. I excel in interacting with people, adapting easily to various environments, and always striving to contribute meaningfully to any team. My strong communication skills and a deep interest in ICT education empower me to continue learning and pushing my boundaries.</p>
+    </section>
+
+    <!-- Programming Languages Section -->
+    <section id="languages">
+        <h2>Programming Languages</h2>
+        <ul>
+            <li><img src="Images/Python-logo-notext.svg.png"alt= "Python logo"> Python</li>
+            <li><img src="Images/html.png" alt="HTML logo"> HTML</li>
+            <li><img src="Images/Css2.png" alt="CSS logo"> CSS</li>
+            <li><img src="Images/Javascript.webp" alt="JavaScript logo"> JavaScript</li>
+            <li><img src="Images/PHP-logo.svg.png" alt="PHP logo"> PHP</li>
+        </ul>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education">
+        <h2>Education</h2>
+        <ul>
+            <li>Bachelor's Degreein Information Technology, [BYU], [Current]</li>
+            <li>Certification in Web Development, [PLP Academy], [Current]</li>
+            <li>Cybersecurity Certification, [Think Tank], [2021]</li>
+        </ul>
+        <a href="https://docs.google.com/document/d/1GQqeT01Uz5N71ZtQw-SKNy58ZQowL73E/edit?usp=drive_link&ouid=106156458744594525568&rtpof=true&sd=true" target="_blank">Download CV</a>
+    </section>
+
+    <!-- Interests Section -->
+    <section id="interests">
+        <h2>Interests</h2>
+        <ul>
+            <li>Web Development</li>
+            <li>Tech Education</li>
+            <li>UI/UX Design</li>
+            <li>Open Source Contribution</li>
+            <li>Networking & Troubleshooting</li>
+        </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li>
+                <h3>Project 3: Database Design</h3>
+            <p>Database design project developed as part of the PLP Academy course.</p>
+            <a href="https://github.com/PLP-Database-Design/wk-3a-palesa-pna.git" target="_blank">View Project</a>
+        </li>>
+            </li>
+            <li>
+                <h3>Project 4: HTML5 Introduction</h3>
+            <p>An introduction to HTML5, built as part of the PLP Web Technologies course.</p>
+            <a href="https://github.com/PLP-WebTechnologies/feb-2025-introduction-to-html-5-palesa-pna.git" target="_blank">View Project</a>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="submit_form.php" method="POST">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>Made with 💻 by Palesa Molefe</p>
+    </footer>
+
+    <!-- Embedded JavaScript -->
+    <script>
+        // Smooth Scrolling for Navigation Links
+        const navLinks = document.querySelectorAll('nav ul li a');
+
+        navLinks.forEach(link => {
+            link.addEventListener('click', function(event) {
+                event.preventDefault();
+                const targetId = this.getAttribute('href').substring(1); // remove '#'
+                const targetElement = document.getElementById(targetId);
+
+                window.scrollTo({
+                    top: targetElement.offsetTop - 20, // Adjust for header height
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Form Validation (Simple)
+        const form = document.querySelector('form');
+        form.addEventListener('submit', function(event) {
+            const name = document.getElementById('name').value;
+            const email = document.getElementById('email').value;
+            const message = document.getElementById('message').value;
+
+            if (name === '' || email === '' || message === '') {
+                event.preventDefault();
+                alert('Please fill out all fields before submitting.');
+            } else {
+                alert('Thank you for your message, ' + name + '!');
+            }
+        });
+    </script>
+
+</body>
+</html>
