@@ -17,6 +17,17 @@ This site showcases my **IT skills, projects, and passion for software developme
 ---
 
 ## 📁 **Project Structure**  
+/Portfolio
+  ├── /images
+  │   ├── portfolio-preview.png
+  │   └── other-images.png
+  ├── index.html
+  ├── /css
+  │   ├── styles.css
+  ├── /js
+  │   ├── script.js
+  ├── /assets
+  └── README.md
 
 ---
 
